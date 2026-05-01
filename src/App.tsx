@@ -1,27 +1,66 @@
+import { ToastProvider, ToastViewport } from './components/Toast';
+import { TooltipProvider } from './components/Tooltip';
+import { PlaygroundLayout } from './playground/PlaygroundLayout';
+
+import { TokensSection } from './playground/sections/TokensSection';
+import { TypographySection } from './playground/sections/TypographySection';
+
+import { ButtonSection } from './playground/sections/ButtonSection';
+import { BadgeSection } from './playground/sections/BadgeSection';
+import { LinkSection } from './playground/sections/LinkSection';
+
+import { InputSection } from './playground/sections/InputSection';
+import { SelectSection } from './playground/sections/SelectSection';
+import { CheckboxSection } from './playground/sections/CheckboxSection';
+import { SwitchSection } from './playground/sections/SwitchSection';
+
+import { CardSection } from './playground/sections/CardSection';
+import { SeparatorSection } from './playground/sections/SeparatorSection';
+
+import { TabsSection } from './playground/sections/TabsSection';
+import { AvatarSection } from './playground/sections/AvatarSection';
+import { KbdSection } from './playground/sections/KbdSection';
+
+import { DialogSection } from './playground/sections/DialogSection';
+import { SheetSection } from './playground/sections/SheetSection';
+import { TooltipSection } from './playground/sections/TooltipSection';
+
+import { AlertSection } from './playground/sections/AlertSection';
+import { ToastSection } from './playground/sections/ToastSection';
+import { ProgressSection } from './playground/sections/ProgressSection';
+import { SpinnerSection } from './playground/sections/SpinnerSection';
+import { SkeletonSection } from './playground/sections/SkeletonSection';
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground p-8">
-      <header className="max-w-3xl">
-        <h1 className="text-2xl font-semibold tracking-tight">
-          Skill Design System
-        </h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          이 페이지는 디자인 시스템 컴포넌트의 플레이그라운드입니다. 컴포넌트가
-          <code className="mx-1 rounded bg-muted px-1.5 py-0.5 text-xs">
-            src/components/
-          </code>
-          에 추가되면 여기서 import 해 시각적으로 확인할 수 있습니다.
-        </p>
-      </header>
-
-      <section className="mt-8 grid gap-3 max-w-3xl">
-        <div className="rounded-lg border border-border bg-card p-4 text-card-foreground">
-          <p className="text-sm font-medium">시맨틱 토큰 작동 확인</p>
-          <p className="mt-1 text-sm text-muted-foreground">
-            이 카드가 보이면 Tailwind + shadcn 토큰이 정상적으로 적용된 것입니다.
-          </p>
-        </div>
-      </section>
-    </div>
+    <TooltipProvider delayDuration={200}>
+      <ToastProvider swipeDirection="right" duration={4500}>
+        <PlaygroundLayout>
+          <TokensSection />
+          <TypographySection />
+          <ButtonSection />
+          <BadgeSection />
+          <LinkSection />
+          <InputSection />
+          <SelectSection />
+          <CheckboxSection />
+          <SwitchSection />
+          <CardSection />
+          <SeparatorSection />
+          <TabsSection />
+          <AvatarSection />
+          <KbdSection />
+          <DialogSection />
+          <SheetSection />
+          <TooltipSection />
+          <AlertSection />
+          <ToastSection />
+          <ProgressSection />
+          <SpinnerSection />
+          <SkeletonSection />
+        </PlaygroundLayout>
+        <ToastViewport />
+      </ToastProvider>
+    </TooltipProvider>
   );
 }

@@ -54,6 +54,11 @@ PRD를 기반으로 shadcn 패턴으로 구현합니다.
 
 완성된 컴포넌트 폴더(구현 + PRD + 스토리)를 디자인 시스템 저장소에 커밋합니다.
 
+## 6. 카탈로그 등록 (playground)
+
+`/src/playground/sections/<Name>Section.tsx` 를 작성해 좌측 사이드바와 라이브 에디터에 새 컴포넌트가 노출되도록 합니다.
+자세한 절차·구조는 [`skill03-catalog.md`](./skill03-catalog.md) 참고.
+
 ## 사용 시 LLM에게 줄 지시 예시
 
 ```

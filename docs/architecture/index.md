@@ -12,6 +12,7 @@
 | Props 네이밍 + 파일/폴더 네이밍 규칙 | [architecture03-naming.md](./architecture03-naming.md) |
 | TypeScript 규칙 (interface, VariantProps, forwardRef 등) | [architecture04-typescript.md](./architecture04-typescript.md) |
 | 프로젝트 빌드 셋업, 최상위 디렉토리, 시맨틱 토큰 매핑 | [architecture05-project-layout.md](./architecture05-project-layout.md) |
+| 시스템 공유 vs 테마별 토큰 분리, 다크모드 정책, 사이즈 props 정책 | [architecture06-tokens-policy.md](./architecture06-tokens-policy.md) |
 
 ## 갱신 규칙
 

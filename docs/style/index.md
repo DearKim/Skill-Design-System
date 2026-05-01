@@ -11,6 +11,7 @@ TailwindCSS 사용 규칙, variants, sizes, states 등 **시각적 결정**을 �
 | variant별 색·배경·hover 매핑 (color chip 정의) | [style02-variants.md](./style02-variants.md) |
 | size별 height/padding/font-size 토큰 | [style03-sizes.md](./style03-sizes.md) |
 | state(hover/focus/active/disabled/loading/error) 시각 표현 | [style04-states.md](./style04-states.md) |
+| Typography 스케일 (display/h1~h6/lead/body/muted/code) | [style05-typography.md](./style05-typography.md) |
 
 ## 갱신 규칙
 

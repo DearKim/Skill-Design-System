@@ -7,8 +7,9 @@ LLM이 컴포넌트를 만들 때 따라야 할 **워크플로우와 행동 지�
 
 | 수정하고 싶은 내용 | 어떤 파일을 보면 되는가 |
 |---------------------|-------------------------|
-| 5단계 워크플로우(자연어 → 문답 → PRD → 구현 → 업로드) | [skill01-workflow.md](./skill01-workflow.md) |
+| 5단계 워크플로우(자연어 → 문답 → PRD → 구현 → 업로드) + 6단계 카탈로그 등록 | [skill01-workflow.md](./skill01-workflow.md) |
 | LLM 행동 원칙 (임의 해석 금지, 추천 답안 필수, 묶어서 질문, 새 규칙 추가 절차) | [skill02-llm-rules.md](./skill02-llm-rules.md) |
+| 카탈로그·playground 패턴 (ComponentDoc / Demo / Collapsible / PropsTable / LiveExample) | [skill03-catalog.md](./skill03-catalog.md) |
 
 ## 갱신 규칙
 
